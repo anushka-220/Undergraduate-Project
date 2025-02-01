@@ -1,0 +1,6 @@
+python 3.9.18
+tensorflow
+scenvi
+fa2
+scanpy
+squidpy
