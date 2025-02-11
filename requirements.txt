@@ -1,6 +1,9 @@
 python 3.9.18
-tensorflow
-scenvi
+tensorflow 2.18.0
+tensorflow-probability 0.22.0
+keras 3.8.0
+scenvi 0.3.7
 fa2
 scanpy
 squidpy
+jax 0.4.30
