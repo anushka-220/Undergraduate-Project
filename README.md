@@ -11,9 +11,12 @@ This repository currently contains the implementation of ENVI.
 - `pre_processing.ipynb` - Preprocessing code to make the dataset manageable.  
 - `requirements.txt` - List of dependencies required to run the project.  
 
-## **Dataset Details**  
-- **Original Dataset:** 8.5GB, 71K cells  
-- Training was originally set for **16,000 iterations**, but due to computational limitations, it was reduced to **5,000 iterations** for initial testing.  
+
+## **Dataset**  
+The dataset used in this project can be downloaded using the following commands:  
+```bash
+!wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/sc_data.h5ad
+!wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/st_data.h5ad
 
 ## **How to Use**  
 
