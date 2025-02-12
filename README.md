@@ -1,7 +1,16 @@
 # **ENVI Implementation for UMAP**
 
 ## **Overview**  
-This repository currently contains the implementation of ENVI. 
+This repository contains the implementation of **UMAP (Uniform Manifold Approximation and Projection) for ENVI** data. The project involves preprocessing large-scale MERFISH data, reducing file sizes, and training models using **COVET and VAE** to generate UMAP embeddings.  
+
+## **Dataset**  
+The dataset used in this project can be downloaded using the following commands:  
+```bash
+!wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/sc_data.h5ad
+!wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/st_data.h5ad
+```
+- **Original Dataset:** 8.5GB, 71K cells (Updated from previous 1.5GB, 17K cells dataset).
+- 
 ## **Repository Structure**  
 
 - `UMAP/` - Contains UMAP results and related files.  
@@ -10,13 +19,6 @@ This repository currently contains the implementation of ENVI.
 - `file_reduction.ipynb` - Script for reducing dataset file size.  
 - `pre_processing.ipynb` - Preprocessing code to make the dataset manageable.  
 - `requirements.txt` - List of dependencies required to run the project.  
-
-
-## **Dataset**  
-The dataset used in this project can be downloaded using the following commands:  
-```bash
-!wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/sc_data.h5ad
-!wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/st_data.h5ad
 
 ## **How to Use**  
 
@@ -30,8 +32,13 @@ The dataset used in this project can be downloaded using the following commands:
    pip install -r requirements.txt
    ```  
 3. **Run preprocessing script** (`pre_processing.ipynb`) to reduce dataset size.  
-4. **Train the model** using `ENVI.ipynb` to generate UMAP embeddings.   
+4. **Train the model** using `ENVI.ipynb` to generate UMAP embeddings.  
+5. **Run on Colab** using `Colab.ipynb` (Note: Large datasets may cause session restarts).  
 
+## **Future Improvements**  
+- Train the model for **16,000 iterations** using a GPU server to improve results.  
+- Optimize dataset handling for large-scale training.  
+- Improve model performance and fine-tune hyperparameters.  
 
 ## **Contributors**  
 - **Anushka Singh**  
