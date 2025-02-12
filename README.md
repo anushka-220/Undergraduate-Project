@@ -10,7 +10,7 @@ The dataset used in this project can be downloaded using the following commands:
 !wget https://dp-lab-data-public.s3.amazonaws.com/ENVI/st_data.h5ad
 ```
 - **Original Dataset:** 8.5GB, 71K cells (Updated from previous 1.5GB, 17K cells dataset).
-- 
+
 ## **Repository Structure**  
 
 - `UMAP/` - Contains UMAP results and related files.  
