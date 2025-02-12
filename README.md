@@ -1,7 +1,7 @@
 # **ENVI Implementation**
 
 ## **Overview**  
-This repository contains the implementation of **ENVI** data. 
+This repository contains the implementation of **ENVI** . 
 
 ## **Dataset**  
 The dataset used in this project can be downloaded using the following commands:  
