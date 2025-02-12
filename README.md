@@ -1,7 +1,7 @@
-# **ENVI Implementation for UMAP**
+# **ENVI Implementation**
 
 ## **Overview**  
-This repository contains the implementation of **UMAP (Uniform Manifold Approximation and Projection) for ENVI** data. The project involves preprocessing large-scale MERFISH data, reducing file sizes, and training models using **COVET and VAE** to generate UMAP embeddings.  
+This repository contains the implementation of **ENVI** data. 
 
 ## **Dataset**  
 The dataset used in this project can be downloaded using the following commands:  
