@@ -1,3 +1,6 @@
 MERFISH_Data
 .DS_Store
 __pycache__
+ndarrays
+updated_dataset
+snn_matrices

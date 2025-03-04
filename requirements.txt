@@ -7,3 +7,4 @@ fa2
 scanpy
 squidpy
 jax 0.4.30
+metacells==0.9.5
