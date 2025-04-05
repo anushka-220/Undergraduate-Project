@@ -9,4 +9,5 @@ obsm-anndata-file/st_data.h5ad
 obsm-anndata-file
 metacells_envi_latent
 pipeline
-
+final_snn.csv
+final_snn.npy
