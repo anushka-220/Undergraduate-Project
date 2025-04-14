@@ -12,3 +12,4 @@ pipeline
 final_snn.csv
 final_snn.npy
 Approaches/snn_combined_matrix.npz
+snn_combined_distances
